@@ -1,0 +1,97 @@
+---
+name: outreach-writer
+description: Write humanized, non-AI-sounding outreach messages in Chitransh's authentic voice across all channels. Use whenever drafting cold emails to HRs, founders, or hiring managers, Wellfound or Cutshort application notes, LinkedIn DMs or connection requests, referral and alumni messages, curiosity-driven networking notes, freelance client pitches, or interview and application follow-ups.
+---
+
+# Outreach Writer
+
+Write direct, grounded, human-sounding outreach messages tailored to the recipient and channel without sounding like AI slop or a recycled template.
+
+## When to Use
+
+- Cold emails for job or internship applications (HRs, recruiters, founders, hiring managers)
+- Wellfound and Cutshort application notes
+- LinkedIn DMs, InMails, and 300-character connection requests
+- Referral requests and alumni outreach
+- Curiosity-driven networking notes (zero-ask or brief chat)
+- Freelance or agency outreach (software development, AI/RAG, DevOps, technical SEO)
+- Application, interview, and ghosted-thread follow-ups
+
+## Workflow
+
+1. **Load factual context:** Read `references/form-details.md` before drafting whenever you need contact details, links, work history, metrics, compensation, availability, or resume track mappings. Never invent facts, numbers, or links.
+2. **Identify the channel and goal:** Match structure, length, greeting, and closing to the platform (see Channel Formats below).
+3. **Anchor with a real hook:** Research the company's product, recent developments, or engineering challenges. Open with one specific, verified reason for writing to this exact person or company, and explain why it interests you rather than praising them. If research yields nothing substantial, use a meaningful detail from the JD.
+4. **Back skills with experience:** Lead with the technical capabilities the role or client needs, then substantiate them with relevant experience (not the other way around). Avoid making every application revolve around a single past company; pull from the full range of relevant work, projects, and freelance delivery.
+5. **Close with clear, low-pressure intent:** State how you could contribute, keep the next step small and easy to answer, and include relevant links from `references/form-details.md`.
+6. **Run the Anti-Slop Pass:** Strip every AI tell before outputting (see Anti-Slop Rules below).
+7. **Match the output mode:** Do not force a single delivery format. Output clean, ready-to-use text by default, or adapt to Gmail drafting / automation formats when the user or workflow calls for it.
+
+## Voice and Tone
+
+Write the way Chitransh writes in his strongest sent messages:
+
+| Prefer | Avoid |
+| :--- | :--- |
+| Natural, conversational professionalism | Corporate boilerplate |
+| Specific, researched observations | Generic company praise |
+| Demonstrated technical capabilities | Technology dumping |
+| Confidence backed by evidence | Unsupported claims |
+| Smooth transitions | Disconnected paragraphs |
+
+- **Direct and peer-to-peer:** No corporate groveling, no fake enthusiasm, no "Hope this email finds you well."
+- **Natural contractions and rhythm:** Use contractions (`I'm`, `I've`, `that's`, `you're`). In casual notes (Wellfound, LinkedIn, networking), occasionally drop the leading pronoun ("Saw your post on...", "Noticed you're pushing into...").
+- **Short paragraphs:** Keep paragraphs to 2-4 lines so the message scans cleanly on mobile without scrolling.
+- **Low-pressure closings:** Use grounded closings like "Attaching my resume. Happy to share more if useful," "No specific ask here, just wanted to put a face to the application," or "No worries if not, just genuinely curious."
+- **Greetings and sign-offs:** Default to `Hi [Name],` (or `Hey [Name],` for casual networking/startup founders). Close with `Best,` or `Regards,` followed by `Chitransh` (casual/short) or `Chitransh Saxena` (formal/cold email).
+
+## Wellfound and Cutshort Framework
+
+Wellfound and Cutshort messages follow a company-first, skills-backed-by-experience approach rather than a conventional cover letter.
+
+**Fundamental principle:** Back your skills with experience, not your experience with skills.
+
+1. **Opening (Establish genuine interest):**
+   - Research the company's product, recent developments, and engineering challenges.
+   - Identify something specific that interests you and explain why it interests you rather than simply praising the company.
+   - If research yields nothing substantial, anchor on a meaningful detail from the JD.
+
+2. **Body (Demonstrate technical value):**
+   - Identify the exact skills the company needs for the role.
+   - Establish your capabilities first, then substantiate them with relevant experience.
+   - Position yourself as a reliable engineer who has worked closely with clients and leadership.
+   - Avoid making every application revolve around Jnanik; rotate across relevant projects, internships, and client work depending on the role.
+
+3. **Closing (Establish intent):**
+   - Communicate concretely how you could contribute.
+   - Express interest in discussing the opportunity without sounding desperate.
+   - Mention external applications if already submitted (e.g., careers page or LinkedIn).
+   - Include LinkedIn, GitHub, and the relevant resume link from `references/form-details.md`.
+
+## Other Channel Formats
+
+- **Cold Email (Jobs / HRs / Founders):** 90-140 words. Honest, specific subject line (e.g., `Application for [Role] | Chitransh Saxena` or `Curious about [Company/Topic]`). Structure: specific hook -> skills backed by 1-2 concrete proof points -> single low-pressure ask -> compact links from `references/form-details.md`.
+- **LinkedIn Connection Request:** Under 280 characters. One specific hook + one line on relevance. No links, no resume dump.
+- **LinkedIn DM / InMail:** 50-90 words. Conversational, 2 short paragraphs max, single easy question or soft intro.
+- **Referral / Alumni Outreach:** Lead with the shared connection or context, state the exact role and Job ID if applicable, give 2-3 lines of relevant proof, and keep the ask respectful and easy to decline.
+- **Curiosity / Networking:** Explicitly state you are not pitching or asking for a role if true. Ask one sharp, specific question about their work or product, share brief relevant context, and offer a low-friction 10-minute chat.
+- **Freelance Pitch:** Lead with a concrete observation or bottleneck noticed on their site/product/workflow, state what you can build or fix in plain language, back it with 1 relevant proof point, and propose one small next step (e.g., sharing a quick audit or 2-minute breakdown).
+- **Follow-Up:** 2-4 sentences max. Reference the prior touchpoint/date directly, add one small useful update or restate interest calmly, and ask for a quick status update.
+
+## Anti-Slop Rules
+
+Every draft must pass these checks before output:
+
+- **No em-dashes or en-dashes:** Use periods, commas, or hyphens instead.
+- **Ban AI buzzwords and stock phrases:** Never use *delve, tapestry, seamless, elevate, robust, leverage, empower, unlock, crucial, game-changer, curated, resonate, passionate, results-driven, synergy, cutting-edge, landscape, testament, unwavering commitment, nuanced understanding, valuable insight, stark reminder*.
+- **Ban negative parallelisms:** Never write "It's not just X, it's Y" or "What I bring is not just X, but Y."
+- **Ban stiff template lines:** Never use "I hope this email finds you well," "I know time is of the essence, so I'll keep it short and sweet," "I consider myself a strong candidate," "I have demonstrated these skills at," "Additionally," "Moreover," "Furthermore," or "I'd welcome an opportunity to discuss how my experience could contribute to..."
+- **Break metronomic rhythm:** Mix short punchy sentences with medium ones. Avoid grouping adjectives or benefits into neat "rules of three."
+- **Front-load the point:** Put the core reason for writing in sentence 1.
+
+## Gotchas
+
+- Never repeat or hardcode personal details, links, CTC, or work history in prompts or templates without checking `references/form-details.md`, since that file is the single source of truth.
+- Never fabricate a company detail, post, or metric. If the user hasn't given a specific hook about the target company/person, either research it, ask one quick question, or use a clean `[specific observation about X]` placeholder.
+- Match the resume link/track (`SDE` vs `AI`) from `references/form-details.md` to the target role.
+- Do not include multiple asks in one message (e.g., asking for a call, a referral, and feedback all at once). Pick one.
