@@ -1,0 +1,9 @@
+# Personal configuration and resumes (keep private)
+**/references/form-details.md
+**/references/preferences.md
+*.pdf
+
+# Environment & OS files
+.env
+.DS_Store
+Thumbs.db
